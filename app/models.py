@@ -2,6 +2,7 @@ from app import db
 
 
 class User(db.Model):
+
     # 用户表
     __tablename__ = 'user'
 
